@@ -1,6 +1,8 @@
 #include <iostream>
-#include <vector>
-#include <string>
+/*
+ * Simple main function:
+ * Read two numberrs and write their sum
+ */
 
 using namespace std;
 // std::cout means to use the name cout defined in the namespace std (standard)
@@ -34,11 +36,4 @@ int main()
     std::cout << "The sum of " << v1 << " and " << v2
               << " is " << v1 + v2 << std::endl;
     return 0;
-
-    /* This
-    is
-    a
-    multiline
-    comment
-    */
 }
