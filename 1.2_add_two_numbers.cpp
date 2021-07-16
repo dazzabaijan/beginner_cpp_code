@@ -11,7 +11,7 @@ using namespace std;
 int main()
 {
     // The output operator << takes left-hand operand which must be an ostream object
-    // right-hand operaand is a value to print
+    // right-hand operand is a value to print
     // The result is the ostream on which we wrote the given value
     // The result of first operator becomes the helf-hand operand of the second
     // chaining together output requests
@@ -23,7 +23,8 @@ int main()
     // define 2 integer type variables and initialise as 0
     int v1 = 0, v2 = 0;
 
-    // The input operator >> taktes istream as left-hand operand
+    // The input operator >> takes istream as left-hand operand
+    // The return output is its left-hand operand std::cin
     // This is equivalent to
     // std::cin >> v1;
     // std::cin >> v2;
